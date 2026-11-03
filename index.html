@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI/UX Principles Showcase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HERO SECTION -->
+    <header class="hero">
+        <h1>UI/UX Principles Showcase</h1>
+        <p>
+            Demonstrating Visual Hierarchy, Consistency,
+            Accessibility, Feedback and Responsive Design.
+        </p>
+    </header>
+
+    <!-- FORM SECTION -->
+    <section class="container">
+
+        <div class="form-card">
+
+            <h2>User Feedback Form</h2>
+
+            <form id="feedbackForm">
+
+                <label for="name">Full Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter your name"
+                    required
+                >
+
+                <label for="email">Email</label>
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+                <label for="course">Course Name</label>
+                <input
+                    type="text"
+                    id="course"
+                    placeholder="Enter course name"
+                    required
+                >
+
+                <label for="feedback">Feedback</label>
+                <textarea
+                    id="feedback"
+                    rows="5"
+                    placeholder="Write your feedback..."
+                    required
+                ></textarea>
+
+                <button type="submit">
+                    Submit
+                </button>
+
+            </form>
+
+            <p id="message"></p>
+
+        </div>
+
+    </section>
+
+    <!-- PRINCIPLES SECTION -->
+
+    <section class="principles">
+
+        <div class="card">
+            <h3>Visual Hierarchy</h3>
+            <p>
+                Important elements are bigger and more visible.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Consistency</h3>
+            <p>
+                Same colors and styles create familiarity.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Accessibility</h3>
+            <p>
+                Labels and contrast improve usability.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Feedback</h3>
+            <p>
+                Users receive confirmation after submission.
+            </p>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>Created for Coursera UI/UX Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
